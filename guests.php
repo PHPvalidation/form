@@ -54,7 +54,6 @@ if (isset($_POST['btn_guests'])){
                 <td>'.$row['firstname'].'</td>
                 <td>'.$row['lastname'].'</td>
                 <td><button class="btn btn-success"><a href="guests.php?deleteid='.$row['id'].'"onclick="return confirm(\'ARE YOU SURE!\')">DELETE</button></a></td>
-                <td><button class="btn btn-warning"><a href="guest-edit.php?editid='.$row['id'].'"onclick="return confirm(\'ARE YOU SURE!\')">EDIT</a></button></td>
             </tr>';
 			
 		}
